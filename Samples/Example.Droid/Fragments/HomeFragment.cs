@@ -4,7 +4,7 @@ using MvvmCross.Droid.Shared.Attributes;
 
 namespace Example.Droid.Fragments
 {
-    [MvxFragment(typeof(MainViewModel), Resource.Id.content_frame, true)]
+    [MvxFragment(typeof(MainViewModel), Resource.Id.content_frame)]
     [Register("example.droid.fragments.HomeFragment")]
     public class HomeFragment : BaseFragment<HomeViewModel>
     {
